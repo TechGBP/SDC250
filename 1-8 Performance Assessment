@@ -1,0 +1,9 @@
+SELECT first_name, /* 1.8 Performance Assessment    Gabriela Balamta  Question 1*/
+        last_name,
+        dept_code
+
+From l_employees
+
+WHERE dept_code IN ('SAL', 'SHP' , 'ACT');
+
+
