@@ -39,3 +39,25 @@ SELECT * /* 1.8 Performance Assessment    Gabriela Balamta  Question 4 */
 From l_employees
 
 WHERE manager_id IS NULL;
+
+
+
+
+
+
+
+SELECT department_name AS dept  /* 1.8 Performance Assessment    Gabriela Balamta  Question 54 */
+       
+From l_departments
+
+ORDER BY department_name ASC;
+
+/* Alternative Way*/
+
+SELECT department_name AS dept  /* 1.8 Performance Assessment    Gabriela Balamta  Question 5 */
+       
+From l_departments
+
+ORDER BY dept ASC;  
+/* dept can be used because department_name was renamed to dept. 
+Meaning that the information stored in department_name is available to be called up as dept. */
