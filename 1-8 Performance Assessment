@@ -19,3 +19,13 @@ WHERE employee_id
         AND '205';
 
 
+
+SELECT employee_id, /* 1.8 Performance Assessment    Gabriela Balamta  Question 3*/
+       first_name,
+        last_name
+        
+From l_employees
+
+WHERE employee_id LIKE '%1%';
+
+
