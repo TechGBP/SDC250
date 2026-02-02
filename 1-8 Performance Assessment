@@ -7,3 +7,15 @@ From l_employees
 WHERE dept_code IN ('SAL', 'SHP' , 'ACT');
 
 
+
+SELECT employee_id, /* 1.8 Performance Assessment    Gabriela Balamta  Question 2*/
+       first_name,
+        last_name
+        
+From l_employees
+
+WHERE employee_id
+        BETWEEN '201'
+        AND '205';
+
+
