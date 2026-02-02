@@ -8,6 +8,7 @@ WHERE dept_code IN ('SAL', 'SHP' , 'ACT');
 
 
 
+
 SELECT employee_id, /* 1.8 Performance Assessment    Gabriela Balamta  Question 2*/
        first_name,
         last_name
@@ -20,6 +21,8 @@ WHERE employee_id
 
 
 
+
+
 SELECT employee_id, /* 1.8 Performance Assessment    Gabriela Balamta  Question 3*/
        first_name,
         last_name
@@ -29,3 +32,10 @@ From l_employees
 WHERE employee_id LIKE '%1%';
 
 
+
+
+SELECT * /* 1.8 Performance Assessment    Gabriela Balamta  Question 4 */
+      
+From l_employees
+
+WHERE manager_id IS NULL;
